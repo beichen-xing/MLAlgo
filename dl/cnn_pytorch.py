@@ -77,5 +77,5 @@ with torch.no_grad():
         print(f'Accuracy of the model on the test images: {100 * correct / total:.2f}%')
 
 
-torch.save(model.state_dict(), 'cnn_model.pth')
+torch.save(model.state_dict(), '../cnn_model.pth')
 # model.load_state_dict(torch.load('cnn_model.pth'))
